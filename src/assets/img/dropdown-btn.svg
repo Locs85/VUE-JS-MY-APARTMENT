@@ -1,0 +1,24 @@
+<svg version="1.1" id="icon-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" xml:space="preserve" width="32" height="32">
+                <linearGradient id="gradient" gradientUnits="userSpaceOnUse" fy="90%">
+                <stop offset="0%" stop-color="#D81F4F">
+                <animate id="a1" attributeName="stop-color" values="#D81F4F; #0268B9" begin="0; a2.end" dur="2s"></animate>
+                <animate id="a2" attributeName="stop-color" values="#0268B9; #D81F4F" begin="a1.end" dur="2s"></animate>
+                    </stop>
+                <stop offset="100%" stop-color="#0268B9">
+                <animate id="a3" attributeName="stop-color" values="#0268B9; #D81F4F" begin="0; a4.end" dur="2s"></animate>
+                <animate id="a4" attributeName="stop-color" values="#D81F4F; #0268B9" begin="a3.end" dur="2s"></animate>
+                    </stop>
+                </linearGradient>
+                <g id="menu" width="16" height="16">
+                <rect width="4" height="4"></rect>
+                <rect x="6" width="4" height="4"></rect>
+                <rect x="12" width="4" height="4"></rect>
+                <rect y="12" width="4" height="4"></rect>
+                <rect x="6" y="12" width="4" height="4"></rect>
+                <rect x="12" y="12" width="4" height="4"></rect>
+                <rect y="6" width="4" height="4"></rect>
+                <rect x="6" y="6" width="4" height="4"></rect>
+                <rect x="12" y="6" width="4" height="4"></rect>
+                </g>
+                <path id="menu-white" d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0ZM12,24H8V20h4Zm0-6H8V14h4Zm0-6H8V8h4Zm6,12H14V20h4Zm0-6H14V14h4Zm0-6H14V8h4Zm6,12H20V20h4Zm0-6H20V14h4Zm0-6H20V8h4Z"></path>
+            </svg>
